@@ -1,0 +1,33 @@
+.me__photo , .header__logo{
+    animation-name: lazy-left;
+    animation-duration: 1s;
+}
+
+@keyframes lazy-left{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100%{
+        opacity:100;
+        transform: translateX(0px);
+    }
+}
+
+.me__about , .header__menu , .header__bars{
+    animation-name: lazy-right;
+    animation-duration: 1s;
+}
+
+@keyframes lazy-right{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100%{
+        opacity:100;
+        transform: translateX(0px);
+    }
+}

@@ -1,0 +1,230 @@
+.main__me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+    flex-direction: column;
+
+}
+
+.me__photo{
+    display: block;
+    background-color: var(--clr-slat800);
+    width: var(--size-9xl);
+    height: var(--size-9xl);
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 0px 20px var(--clr-slat600);
+
+}
+
+.omar_photo{
+    display: block;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 40%;
+    left: 40%;
+    width:12rem;
+    max-width: 120%;
+    aspect-ratio: 4/5;
+    filter: drop-shadow(10px 30px 30px rgb(0, 0, 0));
+}
+
+.me__about{
+    width: 13rem;
+    margin: 0px 2em;
+    aspect-ratio: 2/1;
+    max-width: 150%;
+    cursor: default;
+}
+
+.me__about .name{
+    font-size: var(--size-xl);
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 0.2em;
+    cursor: default;
+}
+
+.me__about .work{
+    font-size: var(--size-lg);
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 0.1em;
+    cursor: default;
+}
+
+.me__about .more{
+    font-size: var(--size-sm);
+    text-align: center;
+    width: var(--size-9xl);
+    margin: auto;
+    margin-top: 1em;
+}
+
+
+ @media (min-width:475px){
+
+}
+
+@media (min-width:640px){
+    .me__photo{
+        width: var(--size-10xl);
+        height: var(--size-10xl);
+    }
+
+    .me__about{
+        width: 17rem;
+        aspect-ratio: 2/1;
+        max-width: 200%;
+    }
+    
+    .me__about .name{
+        font-size: var(--size-2xl);
+    }
+    
+    .me__about .work{
+        font-size: var(--size-xl);
+    }
+    
+    .me__about .more{
+        font-size: var(--size-sm);
+        width: var(--size-9xl);
+    }
+}
+
+@media (min-width:768px){
+    .me__photo{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .omar_photo{
+        width:14rem;
+    }
+
+    .me__about{
+        width: auto;
+        max-width: 200%;
+    }
+    
+    .me__about .name{
+        font-size: var(--size-4xl);
+    }
+    
+    .me__about .work{
+        font-size: var(--size-3xl);
+    }
+    
+    .me__about .more{
+        font-size: var(--size-xl);
+        width: var(--size-10xl);
+    }
+}
+
+@media (min-width:1024px){
+    .main__me{
+        margin-top: 100px;
+        flex-direction: row;
+        gap: 3rem;
+    }
+    .me__photo{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .omar_photo{
+        width:18rem;
+    }
+
+    .me__about{
+        width: auto;
+        max-width: 200%;
+    }
+    
+    .me__about .name{
+        font-size: var(--size-5xl);
+    }
+    
+    .me__about .work{
+        font-size: var(--size-4xl);
+    }
+    
+    .me__about .more{
+        font-size: var(--size-2xl);
+        width: 12rem;
+        max-width: 150%;
+    }
+}
+
+@media (min-width:1280px){
+    .main__me{
+        margin-top: 100px;
+        flex-direction: row;
+        gap: 4rem;
+    }
+    .me__photo{
+        width: 17rem;
+        height: 17rem;
+    }
+
+    .omar_photo{
+        width:20rem;
+    }
+
+    .me__about{
+        width: auto;
+        max-width: 200%;
+    }
+    
+    .me__about .name{
+        font-size: var(--size-5xl);
+    }
+    
+    .me__about .work{
+        font-size: var(--size-4xl);
+    }
+    
+    .me__about .more{
+        font-size: var(--size-2xl);
+        width: 12rem;
+        max-width: 150%;
+    }
+}
+
+@media (min-width:1536px){
+    .main__me{
+        margin-top: 100px;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    .me__photo{
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .omar_photo{
+        width:23rem;
+    }
+
+    .me__about{
+        width: auto;
+        max-width: 200%;
+    }
+    
+    .me__about .name{
+        font-size: var(--size-6xl);
+    }
+    
+    .me__about .work{
+        font-size: var(--size-5xl);
+    }
+    
+    .me__about .more{
+        font-size: var(--size-2xl);
+        width: 12rem;
+        max-width: 150%;
+    }
+} 
