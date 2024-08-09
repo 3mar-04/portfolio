@@ -1,0 +1,65 @@
+.contact {
+    margin-top: 2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    animation: opacity 0.5s;
+    gap: 2rem;
+}
+
+.contact a{
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--clr-light);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    transition: transform 0.3s , box-shadow 0.3s;
+    margin-bottom: 1rem;
+    padding: 0%;
+
+}
+.contact .insta{
+    background: url(./../../img/instagram.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem; 
+}
+.contact .whats{
+    background: url(./../../img/whats.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem; 
+}
+.contact .github{
+    background: url(./../../img/github.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem; 
+}
+.contact .email{
+    background: url(./../../img/gmail.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem; 
+}
+.contact .linked{
+    background: url(./../../img/linkedin.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem; 
+}
+
+.contact a:hover{
+    filter: drop-shadow(0px 0px 20px var(--clr-light));
+    transform: translateY(-3px);  
+  }

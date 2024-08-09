@@ -1,0 +1,24 @@
+.main__describe{
+text-align: center;
+width: 75%;
+}
+
+.main__describe .title{
+margin-bottom: 2rem;
+font-size: var(--size-5xl);
+}
+
+.info{
+    font-size: var(--size-2xl);
+}
+
+@media (max-width: 768px){
+    .main__describe .title{
+        font-size: var(--size-4xl);
+        
+    }
+
+    .info{
+        font-size: var(--size-xl);
+    }
+}

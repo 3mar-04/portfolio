@@ -1,0 +1,8 @@
+footer{
+    font-size: var(--size-xl);
+    text-align: center;
+    opacity: .5;
+    color: var(--clr-slat600);
+    font-family:sans-serif;
+    cursor: default;
+}

@@ -1,0 +1,136 @@
+.project {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--clr-slat800);
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border: .25rem solid var(--clr-slat600);
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.pro-left{
+  width: 62%;
+  display: inline-block;
+}
+
+.pro-left img{
+  width: 95%;
+  margin: 2.5%;
+  height: auto;
+  box-sizing: border-box;
+  box-shadow: 10px 0px 40px var(--clr-slat600);
+  border: .125rem solid var(--clr-slat600);
+}
+
+.pro-right{
+  width: 38%;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-right h1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pro-right p{
+  text-align: center;
+  max-width: 75%;
+  font-size: var(--size-xl);
+  color: var(--clr-light);
+  margin-bottom: 4rem;
+}
+
+.pro-right a{
+  text-align: center;
+  max-width: 75%;
+  font-size: var(--size-xl);
+  color: var(--clr-light);
+}
+
+ @media (max-width:475px){
+
+}
+
+@media (max-width:640px){
+  .project{
+    flex-direction: column;
+  }
+  .pro-left{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .pro-right{
+    width: 100%;
+  }
+  .pro-right .myh1{
+    font-size: var(--size-base);
+  }
+  .pro-right .myp{
+    font-size: var(--size-sm);
+    max-width: 100%;
+  }
+  .pro-right .btn{
+    font-size: var(--size-sm);
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width:768px){
+  .pro-right .myh1{
+    font-size: var(--size-xl);
+  }
+  .pro-right .myp{
+    font-size: var(--size-base);
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+  .pro-right .btn{
+    font-size: var(--size-base);
+  }
+}
+
+@media (max-width:1024px){
+  .pro-right .myh1{
+    font-size: var(--size-xl);
+  }
+  .pro-right .myp{
+    font-size: var(--size-base);
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+  .pro-right .btn{
+    font-size: var(--size-base);
+  }
+}
+
+@media (max-width:1280px){
+  .pro-right h1{
+    font-size: var(--size-2xl);
+  }
+  .pro-right p{
+    font-size: var(--size-lg);
+    margin-bottom: 3rem;
+  }
+  .pro-right a{
+    font-size: var(--size-lg);
+  }
+}
+
+@media (max-width:1536px){
+  .pro-right h1{
+    font-size: var(--size-3xl);
+  }
+  .pro-right p{
+    font-size: var(--size-lg);
+  }
+  .pro-right a{
+    font-size: var(--size-lg);
+  }
+} 
